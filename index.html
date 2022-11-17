@@ -1,12 +1,752 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Turbo.az</title>
 </head>
+
 <body>
-    
+    <!-- banner -->
+    <div class="banner"></div>
+
+    <!-- start header -->
+    <header>
+        <!-- header top -->
+        <div class="header-top">
+            <nav class="header-top-left">
+                <ul>
+                    <li>
+                        <a href="https://tap.az/" target="_blank">Tap.az</a>
+                    </li>
+                    <li>
+                        <a href="https://bina.az/" target="_blank">Bina.az</a>
+                    </li>
+                    <li>
+                        <a href="https://boss.az/" target="_blank">Boss.az</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- telefonu spanda yazmaliyam yeqin -->
+            <nav class="header-top-right">
+                <ul>
+                    <li>
+                        <span>Dəstək</span><a href="tel">(012) 546 12 85</a>; <a href="tel">(012) 548 25 96</a>
+                    </li>
+                    <li>
+                        <a href="#">Yardım</a>
+                    </li>
+                    <li>
+                        <select name="" id="">
+                            <option value="">Ru</option>
+                            <option value="">Az</option>
+                        </select>
+                    </li>
+                    <li>
+                        <a href=""></a>
+                        <i></i> <span>Seçilmişlər</span>
+                    </li>
+                    <li>
+                        <a href="">
+                            <i></i> <span>Giriş</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <!-- header bottom -->
+        <div class="header-bottom">
+            <nav class="header-bottom-left">
+                <ul>
+                    <li>
+                        <a href="https://turbo.az/"> <strong>TURBO.AZ</strong></a>
+                    </li>
+                    <li>
+                        <a href="#">Bütün elanlar</a>
+                    </li>
+                    <li>
+                        <a href="#">Avtosalonlar</a>
+                    </li>
+                    <li>
+                        Ehtiyat hissələr və aksesuarlar
+                        <ul>
+                            <li>
+                                <a href="#">Aksesuarlar</a>
+                            </li>
+                            <li>
+                                <a href="#">Audio və video texnika</a>
+                            </li>
+                            <li>
+                                <a href="#">Avtokosmetika və avtokimya</a>
+                            </li>
+                            <li>
+                                <a href="#">Ehtiyat hissələri</a>
+                            </li>
+                            <li>
+                                <a href="#">GPS naviqatorlar</a>
+                            </li>
+                            <li>
+                                <a href="#">Qeydiyyat nişanları</a>
+                            </li>
+                            <li>
+                                <a href="#">Siqnalizasiyalar</a>
+                            </li>
+                            <li>
+                                <a href="#">Videoqeydiyyatçılar</a>
+                            </li>
+                            <li>
+                                <a href="#">Şinlər, disklər və təkərlər</a>
+                            </li>
+                            <li>
+                                <a href="#">Digər</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <nav class="header-bottom-right">
+                    <ul>
+                        <li>
+                            <a href="#"> <i></i> <span>Yeni elan</span></a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main>
+        <section id="filters">
+            <div class="container">
+                <!-- 1 filter -->
+                <div class="1filter">
+                    <select name="" id=""> 
+                        <option value="">Marka</option>
+                        <option value=""><i class="fa-thin fa-xmark"></i>Sıfırla </option>
+                        <option value="">Abarth </option>
+                        <option value="">Asia </option>
+                        <option value="">Audi </option>
+                        <option value="">BMW </option>
+                        <option value="">Cadillac </option>
+                        <option value="">Cevo</option>
+                        <option value="">GMC</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">Model</option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                        <option value=""></option>
+                    </select>
+                    <div class="radio-group">
+                        <input type="radio">
+                        <input type="radio">
+                        <input type="radio">
+                    </div>
+                    <select name="" id="">
+                        <option value="">Şəhər<input type="checkbox" name="" id=""></option>
+                        <option value="">Sıfırla<input type="checkbox" name="" id=""></option>
+                        <option value="">Ağcabədi<input type="checkbox" name="" id=""></option>
+                        <option value="">Ağdam<input type="checkbox" name="" id=""></option>
+                        <option value="">Ağsu<input type="checkbox" name="" id=""></option>
+                        <option value="">Bakı<input type="checkbox" name="" id=""></option>
+                        <option value="">Bərdə<input type="checkbox" name="" id=""></option>
+                        <option value="">Gəncə<input type="checkbox" name="" id=""></option>
+                        <option value="">Lerik<input type="checkbox" name="" id=""></option>
+                        <option value="">Masallı<input type="checkbox" name="" id=""></option>
+                        <option value="">Qax<input type="checkbox" name="" id=""></option>
+                    </select>
+                </div>
+                <!--2 filter -->
+                <div class="2filter">
+                    <div class="number">
+                    <input type="number">
+                    <input type="number">
+                    </div>                    
+                    <div class="currency">                        
+                        <select name="" id="">
+                            <option value="">AZN</option>
+                            <option value="">USD</option>
+                            <option value="">EURO</option>
+                        </select>                        
+                    </div>
+                    <div class="credit-barter">
+                        <input type="button" name="" id="">
+                        <input type="button" name="" id="">
+                    </div>
+                    <select name="" id="">
+                        <option value="">Sıfırla</option>
+                        <option value="">Ban növü<input type="checkbox" name="" id=""></option>
+                        <option value="">Avtobus<input type="checkbox" name="" id=""></option>
+                        <option value="">Dartqı<input type="checkbox" name="" id=""></option>
+                        <option value="">Furqon<input type="checkbox" name="" id=""></option>
+                        <option value="">Hetçbek<input type="checkbox" name="" id=""></option>
+                        <option value="">Kabriolet<input type="checkbox" name="" id=""></option>
+                        <option value="">Karvan<input type="checkbox" name="" id=""></option>
+                        <option value="">Kupe<input type="checkbox" name="" id=""></option>
+                        <option value="">Mikroavtobus<input type="checkbox" name="" id=""></option>
+                        <option value="">Minivan<input type="checkbox" name="" id=""></option>
+                        <option value="">Moped<input type="checkbox" name="" id=""></option>
+                    </select>
+                    <select name="" id="">
+                        <option value="">İl, min.</option>
+                        <option value="">Sıfırla</option>
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                        <option value="">2019</option>
+                        <option value="">2018</option>
+                        <option value="">2017</option>
+                        <option value="">2016</option>
+                        <option value="">2015</option>
+                        <option value="">2014</option>
+                        <option value="">2013</option>
+                        <option value="">2012</option>
+                    </select><select name="" id="">
+                        <option value="">maks.</option>
+                        <option value="">Sıfırla</option>
+                        <option value="">2022</option>
+                        <option value="">2021</option>
+                        <option value="">2020</option>
+                        <option value="">2019</option>
+                        <option value="">2018</option>
+                        <option value="">2017</option>
+                        <option value="">2016</option>
+                        <option value="">2015</option>
+                        <option value="">2014</option>
+                        <option value="">2013</option>
+                        <option value="">2012</option>
+                    </select>
+
+                    <div class="daily-statistics">
+                        <div class="new-ad">
+                            Bugün:
+                            <a href="#"><span>4568</span>Yeni elan</a>
+                        </div>
+                        <div class="ad-content">
+                            <ul>
+                                <li>Sıfırla</li>
+                                <li>Daha çox <i></i> </li>
+                                <li>Gizlət <i></i> </li>
+                                <li><button>Elanları göstər</button></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="3filter">
+                        <select name="" id="">
+                            <option value="">Rəng</option>
+                            <option value="">Sıfırla</option>
+                            <option value="">Qara<input type="checkbox" name="" id=""></option>
+                            <option value="">Yaş asfalt<input type="checkbox" name="" id=""></option>
+                            <option value="">Boz<input type="checkbox" name="" id=""></option>
+                            <option value="">Gümüşü<input type="checkbox" name="" id=""></option>
+                            <option value="">Ağ<input type="checkbox" name="" id=""></option>
+                            <option value="">Bej<input type="checkbox" name="" id=""></option>
+                            <option value="">Qırmızı<input type="checkbox" name="" id=""></option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Yanacaq növü</option>
+                            <option value="">Sıfırla</option>
+                            <option value="">Benzin<input type="checkbox" name="" id=""></option>
+                            <option value="">Dizel<input type="checkbox" name="" id=""></option>
+                            <option value="">Qaz<input type="checkbox" name="" id=""></option>
+                            <option value="">Hibrid<input type="checkbox" name="" id=""></option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Ötürücü</option>
+                            <option value="">Sıfırla</option>
+                            <option value="">Arxa<input type="checkbox" name="" id=""></option>
+                            <option value="">Ön<input type="checkbox" name="" id=""></option>
+                            <option value="">Tam<input type="checkbox" name="" id=""></option>
+                        </select>
+                        <select name="" id="">
+                            <option value="">Sürətlər qutusu</option>
+                            <option value="">Sıfırla</option>
+                            <option value="">Mexanika<input type="checkbox" name="" id=""></option>
+                            <option value="">Avtomat<input type="checkbox" name="" id=""></option>
+                            <option value="">Robotlaşdırılmış<input type="checkbox" name="" id=""></option>
+                            <option value="">Variator<input type="checkbox" name="" id=""></option>
+                        </select>
+                    </div>
+
+                    <div class="4filter">
+                        <div>
+                            <select name="" id="">
+                                <option value="">Həcm (sm3),min.</option>
+                            <option value="">Sıfırla</option>
+                                <option value="">0</option>
+                                <option value="">100</option>
+                                <option value="">200</option>
+                                <option value="">300</option>
+                                <option value="">400</option>
+                                <option value="">500</option>
+                                <option value="">600</option>
+                                <option value="">700</option>
+                                <option value="">800</option>
+                            </select>
+                            <select name="" id="">
+                                <option value="">maks.</option>
+                                <option value="">Sıfırla</option>
+                                <option value="">0</option>
+                                <option value="">100</option>
+                                <option value="">200</option>
+                                <option value="">300</option>
+                                <option value="">400</option>
+                                <option value="">500</option>
+                                <option value="">600</option>
+                                <option value="">700</option>
+                                <option value="">800</option>
+                            </select>
+                        </div>
+                        <div>
+                            <input type="number" name="" id="min">                            
+                            <input type="number" name="" id="">
+                        </div>
+                        <div>
+                            <input type="number" name="" id="">
+                            <input type="number" name="" id="">
+                        </div>
+                    </div>
+
+                    <div class="5filter">
+                        <div>
+                            <input type="radio" name="" id="">
+                            <input type="radio" name="" id="">
+                            <input type="radio" name="" id="">
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="">Sahiblərin sayı</option>
+                                <option value="">Sıfırla</option>
+                                <option value="">1<input type="checkbox" name="" id=""></option>
+                                <option value="">2<input type="checkbox" name="" id=""></option>
+                                <option value="">3<input type="checkbox" name="" id=""></option>
+                                <option value="">4 və daha çox<input type="checkbox" name="" id=""></option>
+                            </select>
+                        </div>
+                        <div>
+                            <select name="" id="">
+                                <option value="">Yerlərin sayı</option>
+                                <option value="">Sıfırla</option>
+                                <option value="">1<input type="checkbox" name="" id=""></option>
+                                <option value="">2<input type="checkbox" name="" id=""></option>
+                                <option value="">3<input type="checkbox" name="" id=""></option>
+                                <option value="">4<input type="checkbox" name="" id=""></option>
+                                <option value="">5<input type="checkbox" name="" id=""></option>
+                                <option value="">6<input type="checkbox" name="" id=""></option>
+                                <option value="">7<input type="checkbox" name="" id=""></option>
+                                <option value="">8+<input type="checkbox" name="" id=""></option>
+                            </select>
+                        </div>
+                        <!-- bu hissə input type button olmalidir ya yox qerarsiz qaldim -->
+                        <div>
+                            <input type="radio" name="" id="">
+                        </div>
+                        <div>
+                            <input type="radio" name="" id="">
+                        </div>
+                    </div>
+
+                    <div class="6filter">
+                        <select name="" id="">
+                            <option value="">Hansı bazar üçün yığılıb</option>
+                            <option value="">Sıfırla</option>
+                            <option value="">Amerika<input type="checkbox" name="" id=""></option>
+                            <option value="">Avropa<input type="checkbox" name="" id=""></option>
+                            <option value="">Digər<input type="checkbox" name="" id=""></option>
+                            <option value="">Dubay<input type="checkbox" name="" id=""></option>
+                            <option value="">Koreya<input type="checkbox" name="" id=""></option>
+                            <option value="">Rəsmi diler<input type="checkbox" name="" id=""></option>
+                        </select>
+                    </div>
+
+                    <p>Avtomobilin təchizatı</p>
+                    <hr>
+                    <div class="7filter">
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                        </div>
+                        <div>
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                            <input type="checkbox" name="" id="">
+                        </div>
+                    </div>
+                </div>
+        </section>
+
+        <section id="filter-result">
+            <div class="container">
+                <h5>AXTARIŞIN NƏTİCƏLƏRİ</h5>
+                <div class="filter-content">
+                    <h3>Təəssüf ki, axtarışınız əsasında heç nə tapılmadı.</h3>
+                </div>
+                <div class="filter-result-footer">
+                    <h3>Zəhmət olmasa, daha uyğun axtarış filtrləri seçin.</h3>
+                    <a href="#"> <u>Yeni elanları göstər</u></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="vip-ad">
+            <div class="container">
+                <h2>VIP ELANLAR</h2>
+                <div class="content">
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>
+                            <p>30900 <span>AZN</span></p>
+                            <p>Chery Tiggo 2 Pro</p>
+                            <p><span>2020</span><span>1.5l</span><span>0km</span></p>
+                            <p><span>Bakı, </span><span>20.11.2022 </span><span>17.30</span></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        
+        <section id="last-ad">
+            <div class="container">
+                <h3> <strong>SON ELANLAR</strong> </h3>
+                <a href="https://turbo.az/autos"><em>Hamısını göstər</em></a>
+                <div class="content">
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>
+                            <p>30900 <span>AZN</span></p>
+                            <p>Chery Tiggo 2 Pro</p>
+                            <p><span>2020</span><span>1.5l</span><span>0km</span></p>
+                            <p><span>Bakı, </span><span>20.11.2022 </span><span>17.30</span></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section id="premium-ad">
+            <div class="container">
+                <h4> <strong>PREMİUM ELANLAR</strong> </h4>
+                <div class="content">
+                    <figure>
+                        <img src="" alt="">
+                        <figcaption>
+                            <p>30900 <span>AZN</span></p>
+                            <p>Chery Tiggo 2 Pro</p>
+                            <p><span>2020</span><span>1.5l</span><span>0km</span></p>
+                            <p><span>Bakı, </span><span>20.11.2022 </span><span>17.30</span></p>
+                        </figcaption>
+                    </figure>
+                </div>
+            </div>
+        </section>
+        <section class="">
+            <a href="#"><strong>EHTİYAT HİSSƏLƏRİ VƏ AKSESUARLAR</strong></a>
+            <div class="content">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <p>30900 <span>AZN</span></p>
+                        <p>Chery Tiggo 2 Pro</p>
+                        <p><span>2020</span><span>1.5l</span><span>0km</span></p>
+                        <p><span>Bakı, </span><span>20.11.2022 </span><span>17.30</span></p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+        <section class="">
+            <a href="#"><strong>TELEFONLAR 50 AZN-DƏN</strong></a>
+            <div class="content">
+                <figure>
+                    <img src="" alt="">
+                    <figcaption>
+                        <p>30900 <span>AZN</span></p>
+                        <p>Chery Tiggo 2 Pro</p>
+                        <p><span>2020</span><span>1.5l</span><span>0km</span></p>
+                        <p><span>Bakı, </span><span>20.11.2022 </span><span>17.30</span></p>
+                    </figcaption>
+                </figure>
+            </div>
+        </section>        
+    </main>
+
+    <!-- end main -->
+
+    <!-- start footer -->
+    <!-- burda da telefonla elaqe hissesini a tagi ile vermisdim deyismeliyem? -->
+    <footer>
+        <div class="head-footer">
+            <nav class="leftfooter">
+                <a href="https://turbo.az/pages/advert">Reklam yerləşdirin</a>
+            </nav>
+            <nav class="rightfooter">
+                <div class="social">
+                    <a href="#">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-regular fa-envelope"></i> <span>turbo@turbo.az</span>
+                    </a>
+                    <a href="tel"> <i class="fa-solid fa-phone"></i> (012) 599-08-01 <br> (012) 505-77-55</a>
+                    <script src="https://kit.fontawesome.com/385a791c18.js" crossorigin="anonymous"></script>
+                </div>
+            </nav>
+        </div>
+
+        <div class="first-middle-footer">
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#">Abarth</a>
+                    </li>
+                    <li>
+                        <a href="#">Acura</a>
+                    </li>
+                    <li>
+                        <a href="#">Asia</a>
+                    </li>
+                    <li>
+                        <a href="#">Audi</a>
+                    </li>
+                    <li>
+                        <a href="#">BMW</a>
+                    </li>
+                    <li>
+                        <a href="#">BYD</a>
+                    </li>
+                    <li>
+                        <a href="#">Cadillac</a>
+                    </li>
+                    <li>
+                        <a href="#">Chery</a>
+                    </li>
+                    <li>
+                        <a href="#">Cevo</a>
+                    </li>
+                    <li>
+                        <a href="#">Chevrolet</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Dacia</a>
+                    </li>
+                    <li>
+                        <a href="#">Dadi</a>
+                    </li>
+                    <li>
+                        <a href="#">DAF</a>
+                    </li>
+                    <li>
+                        <a href="#">Dodge</a>
+                    </li>
+                    <li>
+                        <a href="#">Ducati</a>
+                    </li>
+                    <li>
+                        <a href="#">FAW</a>
+                    </li>
+                    <li>
+                        <a href="#">Fiat</a>
+                    </li>
+                    <li>
+                        <a href="#">Ford</a>
+                    </li>
+                    <li>
+                        <a href="#">GAG</a>
+                    </li>
+                    <li>
+                        <a href="#">GMG</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Haval</a>
+                    </li>
+                    <li>
+                        <a href="#">Honda</a>
+                    </li>
+                    <li>
+                        <a href="#">HOWO</a>
+                    </li>
+                    <li>
+                        <a href="#">Hummer</a>
+                    </li>
+                    <li>
+                        <a href="#">Hyundai</a>
+                    </li>
+                    <li>
+                        <a href="#">Infiniti</a>
+                    </li>
+                    <li>
+                        <a href="#">Isuzu</a>
+                    </li>
+                    <li>
+                        <a href="#">Jaguar</a>
+                    </li>
+                    <li>
+                        <a href="#">Jeep</a>
+                    </li>
+                    <li>
+                        <a href="#">JMC</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Kayo</a>
+                    </li>
+                    <li>
+                        <a href="#">Kia</a>
+                    </li>
+                    <li>
+                        <a href="#">Lada</a>
+                    </li>
+                    <li>
+                        <a href="#">Lamborghini</a>
+                    </li>
+                    <li>
+                        <a href="#">Land Rover</a>
+                    </li>
+                    <li>
+                        <a href="#">Lexus</a>
+                    </li>
+                    <li>
+                        <a href="#">Lifan</a>
+                    </li>
+                    <li>
+                        <a href="#">Mack</a>
+                    </li>
+                    <li>
+                        <a href="#">Mercedes</a>
+                    </li>
+                    <li>
+                        <a href="#">Mini</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Mondial</a>
+                    </li>
+                    <li>
+                        <a href="#">Nissan</a>
+                    </li>
+                    <li>
+                        <a href="#">Opel</a>
+                    </li>
+                    <li>
+                        <a href="#">Otocar</a>
+                    </li>
+                    <li>
+                        <a href="#">Parvaz</a>
+                    </li>
+                    <li>
+                        <a href="#">PAZ</a>
+                    </li>
+                    <li>
+                        <a href="#">Polaris</a>
+                    </li>
+                    <li>
+                        <a href="#">Porsche</a>
+                    </li>
+                    <li>
+                        <a href="#">RAF</a>
+                    </li>
+                    <li>
+                        <a href="#">Rolls-Royce</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Scion</a>
+                    </li>
+                    <li>
+                        <a href="#">SEAT</a>
+                    </li>
+                    <li>
+                        <a href="#">Skoda</a>
+                    </li>
+                    <li>
+                        <a href="#">Skyline</a>
+                    </li>
+                    <li>
+                        <a href="#">Smart</a>
+                    </li>
+                    <li>
+                        <a href="#">SMZ</a>
+                    </li>
+                    <li>
+                        <a href="#">Subaru</a>
+                    </li>
+                    <li>
+                        <a href="#">SYM</a>
+                    </li>
+                    <li>
+                        <a href="#">Tesla</a>
+                    </li>
+                    <li>
+                        <a href="#">Toyota</a>
+                    </li>
+                </ul>
+                <ul>
+                    <li>
+                        <a href="#">Vosxod</a>
+                    </li>
+                    <li>
+                        <a href="#">Yamaha</a>
+                    </li>
+                    <li>
+                        <a href="#">ZAZ</a>
+                    </li>
+                    <li>
+                        <a href="#">ZIL</a>
+                    </li>
+                    <li>
+                        <a href="#">Zontes</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="second-middle-footer">
+            <nav>
+                <a href="#">Qaydalar</a>
+                <a href="#">Qanun</a>
+                <a href="#">İstifadəçi razılaşması</a>
+                <a href="#">Məxfilik siyasəti</a>
+            </nav>
+        </div>
+        <div class="end-footer">
+            <nav class="end-footer-left">
+                <p>Saytın Administrasiyası reklam bannerlərinin və yerləşdirilmiş <br> elanların məzmununa görə
+                    məsuliyyət daşımır.</p>
+            </nav>
+            <nav class="endfooterright">
+                <div>
+                    <p>2006-2022 Digital Classifieds MMC. VÖEN: 1405631661</p>
+                    <a href="#"><em>Mobil versiyası</em></a>
+                </div>
+            </nav>
+        </div>
+    </footer>
+
+    <!-- end footer -->
+    <script src="https://kit.fontawesome.com/385a791c18.js" crossorigin="anonymous"></script>
+
+
 </body>
+
 </html>
